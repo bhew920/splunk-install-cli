@@ -1,11 +1,13 @@
 # splunk-install-cli
 Splunk installation CLI
 
-🚀 Splunk Enterprise Installation via CLI (Linux)
+---
+## 🚀 Splunk Enterprise Installation via CLI (Linux)
 
 This guide walks through installing Splunk Enterprise on a Linux server using the command line, following Splunk best practices for security, permissions, and service management.
 
-🧰 Prerequisites
+---
+## 🧰 Prerequisites
 
 Before you begin, make sure you have:
 
@@ -17,7 +19,8 @@ Before you begin, make sure you have:
 
 💾 Minimum system requirements met
 
-📥 Step 1: Download Splunk Enterprise
+---
+## 📥 Step 1: Download Splunk Enterprise
 
 Download the installer (example using .tgz):
 
@@ -28,7 +31,8 @@ Or copy it to the server:
 
 scp splunk.tgz user@server:/tmp
 
-📦 Step 2: Extract Splunk (Run as root)
+---
+## 📦 Step 2: Extract Splunk (Run as root)
 cd /opt
 tar -xvzf /tmp/splunk.tgz
 
@@ -37,26 +41,31 @@ tar -xvzf /tmp/splunk.tgz
 
 /opt/splunk
 
-👤 Step 3: Create the Splunk User & Group
+---
+## 👤 Step 3: Create the Splunk User & Group
 groupadd splunk
 useradd -m -g splunk splunk
 
 
 🔐 This ensures Splunk runs as a non-root user.
 
-🔑 Step 4: Set Ownership & Permissions
+---
+## 🔑 Step 4: Set Ownership & Permissions
 chown -R splunk:splunk /opt/splunk
 
-🔄 Step 5: Switch to the Splunk User
+---
+## 🔄 Step 5: Switch to the Splunk User
 su - splunk
 
-▶️ Step 6: Start Splunk (First Run)
+---
+## ▶️ Step 6: Start Splunk (First Run)
 /opt/splunk/bin/splunk start --accept-license
 
 
 📝 You’ll be prompted to create an admin username and password.
 
-🔁 Step 7: Enable Splunk at Boot (Run as root)
+---
+## 🔁 Step 7: Enable Splunk at Boot (Run as root)
 
 Exit back to root:
 
@@ -67,11 +76,13 @@ Enable boot-start:
 
 /opt/splunk/bin/splunk enable boot-start -user splunk
 
-✅ Step 8: Verify Splunk Status
+---
+## ✅ Step 8: Verify Splunk Status
 su - splunk
 /opt/splunk/bin/splunk status
 
-🌐 Step 9: Access the Splunk Web UI
+---
+## 🌐 Step 9: Access the Splunk Web UI
 
 Open your browser and navigate to:
 
