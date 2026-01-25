@@ -4,7 +4,7 @@ Watch me install Splunk using the CLI here https://www.loom.com/share/7c0c3cd677
 ---
 ## 🚀 Splunk Enterprise Installation via CLI (Linux)
 
-This guide walks through installing Splunk Enterprise on a Linux server using the command line, following Splunk best practices for security, permissions, and service management.
+This guide walks through installing Splunk Enterprise on a Linux server using the command line following Splunk best practices for security, permissions, and service management.
 
 ---
 ## 🧰 Prerequisites
