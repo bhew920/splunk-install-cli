@@ -1,4 +1,4 @@
-# Splunk-Install-CLI
+# Splunk Install CLI
 Watch me install Splunk using the CLI here https://www.loom.com/share/21f7b7048ab6416fb7f7cebd9f718706
 
 ---
