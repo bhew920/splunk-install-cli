@@ -88,21 +88,28 @@ Open your browser and navigate to:
 
 http://server-ip:8000
 
-
-🔌 Common Ports:
+---
+## 🔌 Common Ports:
 
 Web UI: 8000
 
 Management: 8089
 
-🖥️ Common CLI Commands
+---
+## 🖥️ Common CLI Commands
+
 splunk start
+
 splunk stop
+
 splunk restart
+
 splunk status
+
 splunk show web-port
 
-⭐ Best Practices
+---
+## ⭐ Best Practices
 
 🚫 Never run Splunk as root
 
@@ -113,11 +120,3 @@ splunk show web-port
 🔒 Secure credentials and open ports early
 
 🗂️ Version-control configs (props.conf, transforms.conf)
-
-📝 Notes
-
-$SPLUNK_HOME defaults to /opt/splunk
-
-Ensure firewall rules allow port 8000
-
-Production deployments may require additional tuning
