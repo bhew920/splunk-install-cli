@@ -86,7 +86,7 @@ su - splunk
 
 Open your browser and navigate to:
 
-http://<server-ip>:8000
+http://server-ip:8000
 
 
 🔌 Common Ports:
