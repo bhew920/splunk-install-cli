@@ -1,5 +1,5 @@
 # splunk-install-cli
-Watch me install Splunk using the CLI here https://www.loom.com/share/7c0c3cd677c94a9a9a03902d154a32ae
+Watch me install Splunk using the CLI here https://www.loom.com/share/21f7b7048ab6416fb7f7cebd9f718706
 
 ---
 ## 🚀 Splunk Enterprise Installation via CLI (Linux)
