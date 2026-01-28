@@ -24,7 +24,7 @@ Before you begin, make sure you have:
 
 Download the installer (example using .tgz):
 
-wget -O splunk.tgz https://download.splunk.com/products/splunk/releases/<VERSION>/linux/splunk-<VERSION>-Linux-x86_64.tgz
+wget -O splunk.tgz https://download.splunk.com/products/splunk/releases/VERSION/linux/splunk-VERSION-Linux-x86_64.tgz
 
 
 Or copy it to the server:
